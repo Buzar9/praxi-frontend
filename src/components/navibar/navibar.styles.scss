@@ -1,0 +1,27 @@
+.navibar {
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  border-bottom: solid 1px;
+
+
+  .home {
+    padding: 10px;
+  }
+
+  .option-group {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+    .option {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  }
+}

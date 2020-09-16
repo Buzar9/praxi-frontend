@@ -1,0 +1,23 @@
+.navibar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  border-bottom: solid 1px;
+}
+.navibar .home {
+  padding: 10px;
+}
+.navibar .option-group {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navibar .option-group .option {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=navibar.styles.css.map */
